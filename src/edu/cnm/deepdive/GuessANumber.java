@@ -10,7 +10,7 @@ public class GuessANumber {
   public static void main(String[] args) {
 
     while (playOneRound()) {
-      ;
+      
     }
 
 
@@ -20,7 +20,7 @@ public class GuessANumber {
     int secret = random.nextInt(100) + 1;
 
     while (guessAndCheck(secret)) {
-      
+
     }
     System.out.println("play again?");
     String reaction;
